@@ -1,0 +1,39 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browsersList": [
+    "> 1%"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sultanbek1/bult-qr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sultanbek1/proj/issues"
+  },
+  "homepage": "https://github.com/Sultanbek1/proj#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.54.9"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "autoprefixer": "9.0.0",
+    "bootstrap": "^5.2.1",
+    "postcss-preset-env": "^7.8.2",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.3"
+  }
+}
