@@ -19,6 +19,8 @@
 </head>
 
 <body>
+    <div id="root
+    "></div>
     <div class="wrapper">
 
 
@@ -236,7 +238,7 @@
                     <div class="places__header d-flex justify-content-between">
                         <p>Рестораны</p>
                         <a><span class="text-decoration-underline">Показать еще</span> <img
-                                src="assets/images/smallleft.svg" alt="left"></ф>
+                                src="assets/images/smallleft.svg" alt="left"></a>
                     </div>
 
 
@@ -554,7 +556,7 @@
 
             </div>
 
-            <div class="paggination d-flex justify-content-center mb-5">
+            <div class="paggination d-flex justify-content-center mb-4">
                 <img src="assets/images/pagleft.svg" alt="l">
 
                 <p class="mx-2">1/4</p>
@@ -898,20 +900,2043 @@
         </div>
 
 
-        <div class="booking d-flex flex-column">
-            <div class="top d-flex align-items-center mb-5">
+        <div class="booking d-flex flex-column se">
+            <div class="top d-flex align-items-center mb-4">
                 <img src="assets/images/Left.svg" alt="df">
                 <p class="title ">Бронирование</p>
             </div>
 
             <div class="base">
+                <div class="amount d-flex justify-content-between">
+                    <p class="subtitle">Количество персон</p>
+                    <div class="picker d-flex align-items-center column-gap-2">
+                        <img src="assets/images/minus.svg" alt="min">
+                        <p>1</p>
+                        <img src="assets/images/plus.svg" alt="plus">
+                    </div>
+                </div>
 
+                <div class="date">
+                    <div class="top d-flex justify-content-between align-items-center mb-2">
+                        <p class="subtitle">Дата</p>
+                        <div class="img-holder">
+                            <img src="assets/images/calendar.svg" alt="calendar">
+                        </div>
+                    </div>
+
+                    <div class="date__items d-flex">
+                        <div class="item">
+                            14 ср
+                        </div>
+                        <div class="item active">
+                            15 чт
+                        </div>
+                        <div class="item">
+                            16 пт
+                        </div>
+                        <div class="item">
+                            17 сб
+                        </div>
+
+                        <div class="item">
+                            17 сб
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="time">
+                    <div class="top d-flex justify-content-between align-items-center mb-2">
+                        <p class="subtitle">Время</p>
+                        <div class="img-holder">
+                            <img src="assets/images/calendar.svg" alt="calendar">
+                        </div>
+                    </div>
+                    <div class="time__items d-flex mb-3">
+                        <div class="item">
+                            17:00
+                        </div>
+                        <div class="item">
+                            18:00
+                        </div>
+                        <div class="item active">
+                            19:00
+                        </div>
+                        <div class="item">
+                            20:00
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="textarea mb-5">
+                    <p class="subtitle">Пожелания:</p>
+                    <textarea placeholder="Напишите свой отзыв."></textarea>
+                </div>
             </div>
 
-            <div class="text-center ">
+            <div class="text-center">
                 <button class="btn-gray">
                     Продолжить
                 </button>
+            </div>
+        </div>
+
+
+        <div class="booking-2 se d-flex flex-column">
+            <div class="top d-flex align-items-center mb-4">
+                <img src="assets/images/Left.svg" alt="df">
+                <p class="title ">Бронирование</p>
+            </div>
+
+            <div class="text-center mb-3">
+                <button class="btn-next">
+                    Посмотреть меню
+                    <img src="assets/images/right.svg" alt="rg">
+                </button>
+            </div>
+
+
+            <div class="check d-flex align-items-center">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Закажу в ресторане
+                </label>
+            </div>
+
+            <div class="base flex-grow-1"></div>
+
+
+            <div class="text-center">
+                <button class="btn-green">
+                    Продолжить
+                </button>
+            </div>
+
+            <div class="text-center">
+                <button class="btn-green">
+                    Завершить
+                </button>
+            </div>
+
+        </div>
+
+
+        <div class="success se d-flex flex-column">
+            <div class="base flex-grow-1 d-flex flex-column align-items-center justify-content-center text-center">
+                <img class="mb-3" src="assets/images/checked.svg" alt="yes">
+
+
+                <p class="ms mb-3">
+                    Бронирование успешно <br> завершено!
+                </p>
+
+                <p class="text">
+                    Статус бронирования вы можете <br> отслеживать в личном кабинете.
+                </p>
+            </div>
+
+            <div class="text-center">
+                <button class="btn-green mb-1">
+                    Проверить статус брони
+                </button>
+
+                <button class="btn-gray">
+                    Вернуться на Главную
+                </button>
+            </div>
+        </div>
+
+
+        <div class="menu-page">
+            <div class="top d-flex align-items-center mb-4">
+                <img src="assets/images/Left.svg" alt="df">
+                <p class="title flex-grow-1 text-center">Меню</p>
+                <img src="assets/images/sear.svg" alt="df">
+            </div>
+
+            <div class="filter-group d-flex mb-3">
+                <div class="item active">Завтраки</div>
+                <div class="item ">Комбо</div>
+                <div class="item ">Салаты</div>
+                <div class="item ">Закуски</div>
+            </div>
+
+
+            <div class="base flex-grow-1 mb-5">
+                <div class="breakfast mb-4">
+                    <div class="subtitle mb-3">
+                        Завтраки
+                    </div>
+
+                    <div class="list">
+                        <div class="item d-flex align-items-center">
+                            <div class="img-holder mr-5">
+                                <img src="assets/images/food.svg" alt="fd">
+                            </div>
+
+                            <div class="desc">
+                                <p class="title">Ассорти Мясное</p>
+                                <p class="price">4890 тг</p>
+                                <p class="text">Отварной со специями говяжий язык, маринованный и копченый курдюк,
+                                    копченые казы и ароматный рулет из баранины.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="item d-flex align-items-center">
+                            <div class="img-holder mr-5">
+                                <img src="assets/images/assorti.svg" alt="fd">
+                            </div>
+
+                            <div class="desc">
+                                <p class="title">Ассорти Мясное</p>
+                                <p class="price">4890 тг</p>
+                                <p class="text">Отварной со специями говяжий язык, маринованный и копченый курдюк,
+                                    копченые казы и ароматный рулет из баранины.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="combo mb-4">
+                    <div class="subtitle mb-3">
+                        Комбо
+                    </div>
+
+                    <div class="list">
+                        <div class="item d-flex align-items-center">
+                            <div class="img-holder mr-5">
+                                <img src="assets/images/food.svg" alt="fd">
+                            </div>
+
+                            <div class="desc">
+                                <p class="title">Ассорти Мясное</p>
+                                <p class="price">4890 тг</p>
+                                <p class="text">Отварной со специями говяжий язык, маринованный и копченый курдюк,
+                                    копченые казы и ароматный рулет из баранины.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="item d-flex align-items-center">
+                            <div class="img-holder mr-5">
+                                <img src="assets/images/assorti.svg" alt="fd">
+                            </div>
+
+                            <div class="desc">
+                                <p class="title">Ассорти Мясное</p>
+                                <p class="price">4890 тг</p>
+                                <p class="text">Отварной со специями говяжий язык, маринованный и копченый курдюк,
+                                    копченые казы и ароматный рулет из баранины.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="salads">
+                    <div class="subtitle mb-3">
+                        Салаты
+                    </div>
+
+                    <div class="list">
+                        <div class="item d-flex align-items-center">
+                            <div class="img-holder mr-5">
+                                <img src="assets/images/food.svg" alt="fd">
+                            </div>
+
+                            <div class="desc">
+                                <p class="title">Ассорти Мясное</p>
+                                <p class="price">4890 тг</p>
+                                <p class="text">Отварной со специями говяжий язык, маринованный и копченый курдюк,
+                                    копченые казы и ароматный рулет из баранины.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="item d-flex align-items-center">
+                            <div class="img-holder mr-5">
+                                <img src="assets/images/assorti.svg" alt="fd">
+                            </div>
+
+                            <div class="desc">
+                                <p class="title">Ассорти Мясное</p>
+                                <p class="price">4890 тг</p>
+                                <p class="text">Отварной со специями говяжий язык, маринованный и копченый курдюк,
+                                    копченые казы и ароматный рулет из баранины.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="text-center">
+                <button class="btn-green">
+                    Забронировать столик
+                </button>
+            </div>
+        </div>
+
+
+        <div class="address-page">
+            <div class="map position-relative mb-2">
+                <img class="img-map" src="assets/images/map.svg" alt="df" />
+                <img class="position-absolute left" src="assets/images/Left.svg" alt="df">
+            </div>
+
+
+            <div class="desc cont">
+                <div class="title mb-2">
+                    Какой у вас адрес?
+                </div>
+                <div class="input-group mb-4">
+
+                    <div class="address d-flex flex-column mb-3">
+                        <input class="inp-t error" id="address" type="text" placeholder="Укажите улицу и дом">
+                        <label class="error-ms" for="address">Адрес не найден</label>
+                    </div>
+
+                    <div class="add-group d-flex column-gap-2">
+                        <input class="inp-add" type="text" placeholder="Подъезд" />
+                        <input class="inp-add" type="text" placeholder="Этаж" />
+                        <input class="inp-add" type="text" placeholder="Квартира" />
+                    </div>
+                </div>
+
+
+                <div class="text-center">
+                    <button class="btn-gray">
+                        Сохранить
+                    </button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="notification se">
+            <div class="top d-flex align-items-center position-relative mb-4">
+                <p class="title flex-grow-1 text-center">Уведомление</p>
+                <img class="position-absolute cross" src="assets/images/cross.svg" alt="df">
+            </div>
+
+
+
+            <div class="base cont">
+
+                <div class="item d-flex">
+                    <div class="img-holder">
+                        <img src="assets/images/notification-green.svg" alt="">
+                    </div>
+
+                    <div class="desc">
+                        <div class="title">
+                            Поздравляем! Вы успешно зарегистрировались в Bult QR.
+                        </div>
+
+                        <div class="time">
+                            8 минут назад
+                        </div>
+
+                        <img src="assets/images/dot-green.svg" alt="f">
+                    </div>
+                </div>
+
+                <div class="item d-flex">
+                    <div class="img-holder">
+                        <img src="assets/images/notification-yellow.svg" alt="">
+                    </div>
+
+                    <div class="desc">
+                        <div class="title">
+                            Поздравляем! Вы успешно зарегистрировались в Bult QR.
+                        </div>
+
+                        <div class="time">
+                            8 минут назад
+                        </div>
+
+                        <!-- <img src="assets/images/dot-green.svg" alt="f"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="order cont">
+            <div class="address d-flex position-relative">
+                <img class="met" src="assets/images/metka.svg" alt="met">
+
+                <div class="address__text flex-grow-1">
+                    <p>Адрес</p>
+                    <div class="address__desc">Пр. Кабанбая батыра <img src="assets/images/bottom.svg" alt="bt">
+                    </div>
+                </div>
+
+                <img src="assets/images/bellyring.svg" alt="f">
+            </div>
+
+            <div class="tab my-4">
+                <button class="tablinks">Бронировать столик</button>
+                <button class="tablinks active">Заказать еду</button>
+            </div>
+
+            <div class="input d-flex mb-4">
+                <div class="input-search">
+                    <input placeholder="Поиск" type="text">
+                    <img src="assets/images/search-icon.svg" alt="se">
+                </div>
+
+                <div class="filter">
+                    <img src="assets/images/filter.svg" alt="filter">
+                </div>
+            </div>
+
+
+            <div class="category">
+
+                <div class="desc d-flex justify-content-between align-items-center">
+                    <div class="title">
+                        Категории
+                    </div>
+
+                    <div class="show d-flex justify-content-between">
+                        <a class=""><span>Показать еще</span> <img src="assets/images/smallleft.svg" alt="left"></a>
+                    </div>
+                </div>
+
+
+                <div class="swiper d-flex align-items-center overflow-scroll">
+
+                    <div class="item text-center">
+                        <div class="img-holder">
+                            <img src="assets/images/burger.svg" alt="df">
+                        </div>
+
+                        <div class="name">
+                            Бургер
+                        </div>
+                    </div>
+
+                    <div class="item text-center">
+                        <div class="img-holder">
+                            <img src="assets/images/burger.svg" alt="df">
+                        </div>
+
+                        <div class="name">
+                            Бургер
+                        </div>
+                    </div>
+
+                    <div class="item text-center">
+                        <div class="img-holder">
+                            <img src="assets/images/burger.svg" alt="df">
+                        </div>
+
+                        <div class="name">
+                            Бургер
+                        </div>
+                    </div>
+
+                    <div class="item text-center">
+                        <div class="img-holder">
+                            <img src="assets/images/burger.svg" alt="df">
+                        </div>
+
+                        <div class="name">
+                            Бургер
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tabs ">
+                <div class="tabs__group d-flex align-items-center">
+                    <div class="item active">
+                        Популярные
+                    </div>
+                    <div class="item ">
+                        Новинки
+                    </div>
+                    <div class="item active">
+                        В тренде
+                    </div>
+
+                </div>
+
+
+                <div class="foods row justify-content-between">
+                    <a class="foods__item col-6">
+                        <div class="img-holder">
+                            <img class="first" src="assets/images/assorti1.svg" alt="cafe">
+                            <img class="fav" src="assets/images/red-fav.svg" alt="f">
+                        </div>
+
+                        <p class="title">Orient Express</p>
+
+                        <p class="sub">​у. К.Мухамедханова, 11</p>
+
+                        <div class="rate"><img src="assets/images/star.svg" alt="star"> 5.0</div>
+                    </a>
+
+                    <a class="foods__item col-6">
+                        <div class="img-holder">
+                            <img class="first" src="assets/images/assorti2.svg" alt="cafe">
+                            <img class="fav" src="assets/images/red-fav.svg" alt="f">
+                        </div>
+
+                        <p class="title">Orient Express</p>
+
+                        <p class="sub">​у. К.Мухамедханова, 11</p>
+
+                        <div class="rate"><img src="assets/images/star.svg" alt="star"> 5.0</div>
+                    </a>
+
+                    <a class="foods__item col-6">
+                        <div class="img-holder">
+                            <img class="first" src="assets/images/assorti3.svg" alt="cafe">
+                            <img class="fav" src="assets/images/red-fav.svg" alt="f">
+                        </div>
+
+                        <p class="title">Orient Express</p>
+
+                        <p class="sub">​у. К.Мухамедханова, 11</p>
+
+                        <div class="rate"><img src="assets/images/star.svg" alt="star"> 5.0</div>
+                    </a>
+
+                    <a class="foods__item col-6">
+                        <div class="img-holder">
+                            <img class="first" src="assets/images/assorti4.svg" alt="cafe">
+                            <img class="fav" src="assets/images/red-fav.svg" alt="f">
+                        </div>
+
+                        <p class="title">Orient Express</p>
+
+                        <p class="sub">​у. К.Мухамедханова, 11</p>
+
+                        <div class="rate"><img src="assets/images/star.svg" alt="star"> 5.0</div>
+                    </a>
+                </div>
+
+                <div class="paggination d-flex justify-content-center mb-4">
+                    <img src="assets/images/pagleft.svg" alt="l">
+
+                    <p class="mx-2">1/4</p>
+
+                    <img src="assets/images/pagright.svg" alt="r">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="navbot d-flex">
+            <div class="navbot__item">
+                <img src="assets/images/home.svg" alt="hm">
+                <p>Главная</p>
+            </div>
+            <div class="navbot__item active">
+                <img src="assets/images/fav.svg" alt="hm">
+                <p>Избранное</p>
+            </div>
+            <div class="navbot__item">
+                <img src="assets/images/qr.svg" alt="hm">
+                <p>QR код</p>
+            </div>
+            <div class="navbot__item">
+                <img src="assets/images/cart.svg" alt="hm">
+                <p>Корзина</p>
+            </div>
+            <div class="navbot__item">
+                <img src="assets/images/account.svg" alt="hm">
+                <p>Аккаунт</p>
+            </div>
+        </div>
+
+        <div class="categories se d-flex flex-column">
+            <div class="base cont flex-grow-1">
+                <div class="address d-flex position-relative">
+                    <img class="met" src="assets/images/metka.svg" alt="met">
+
+                    <div class="address__text flex-grow-1">
+                        <p>Адрес</p>
+                        <div class="address__desc">Пр. Кабанбая батыра <img src="assets/images/bottom.svg" alt="bt">
+                        </div>
+                    </div>
+
+                    <img src="assets/images/bellyring.svg" alt="f">
+                </div>
+
+
+                <div class="top  d-flex align-items-center mt-4 mb-4">
+                    <img src="assets/images/Left.svg" alt="df">
+                    <p class="title flex-grow-1 text-center">Категории</p>
+                </div>
+
+
+                <div class="food-category row row-gap-3">
+                    <div class="col-4">
+                        <div class="item text-center">
+                            <div class="img-holder">
+                                <img src="assets/images/burger.svg" alt="df">
+                            </div>
+
+                            <div class="name">
+                                Бургер
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="item  text-center">
+                            <div class="img-holder">
+                                <img src="assets/images/burger.svg" alt="df">
+                            </div>
+
+                            <div class="name">
+                                Бургер
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="item  text-center">
+                            <div class="img-holder">
+                                <img src="assets/images/burger.svg" alt="df">
+                            </div>
+
+                            <div class="name">
+                                Бургер
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="item text-center">
+                            <div class="img-holder">
+                                <img src="assets/images/burger.svg" alt="df">
+                            </div>
+
+                            <div class="name">
+                                Бургер
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="item  text-center">
+                            <div class="img-holder">
+                                <img src="assets/images/burger.svg" alt="df">
+                            </div>
+
+                            <div class="name">
+                                Бургер
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="item  text-center">
+                            <div class="img-holder">
+                                <img src="assets/images/burger.svg" alt="df">
+                            </div>
+
+                            <div class="name">
+                                Бургер
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="item text-center">
+                            <div class="img-holder">
+                                <img src="assets/images/burger.svg" alt="df">
+                            </div>
+
+                            <div class="name">
+                                Бургер
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="item  text-center">
+                            <div class="img-holder">
+                                <img src="assets/images/burger.svg" alt="df">
+                            </div>
+
+                            <div class="name">
+                                Бургер
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="item  text-center">
+                            <div class="img-holder">
+                                <img src="assets/images/burger.svg" alt="df">
+                            </div>
+
+                            <div class="name">
+                                Бургер
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="navbot d-flex">
+                <div class="navbot__item">
+                    <img src="assets/images/home.svg" alt="hm">
+                    <p>Главная</p>
+                </div>
+                <div class="navbot__item active">
+                    <img src="assets/images/fav.svg" alt="hm">
+                    <p>Избранное</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/qr.svg" alt="hm">
+                    <p>QR код</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/cart.svg" alt="hm">
+                    <p>Корзина</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/account.svg" alt="hm">
+                    <p>Аккаунт</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="breakfasts">
+            <div class="base restaurants-page">
+                <div class="head d-flex justify-content-between mb-3">
+                    <div class="address position-relative">
+                        <img class="met" src="assets/images/metka.svg" alt="met">
+
+                        <div class="address__text ">
+                            <p>Адрес</p>
+                            <div class="address__desc">Пр. Кабанбая батыра <img src="assets/images/bottom.svg" alt="bt">
+                            </div>
+                        </div>
+                    </div>
+
+                    <img src="assets/images/bellyring.svg" alt="bell">
+                </div>
+
+                <div class="res-title">
+                    <img src="assets/images/Left.svg" alt="fd">Завтраки
+                </div>
+
+                <div class="input d-flex">
+                    <div class="input-search">
+                        <input placeholder="Поиск" type="text">
+                        <img src="assets/images/search-icon.svg" alt="se">
+                    </div>
+
+                    <div class="filter">
+                        <img src="assets/images/filter.svg" alt="filter">
+                    </div>
+                </div>
+
+                <div class="places row justify-content-between">
+                    <a class="places__item col-6">
+                        <div class="img-holder">
+                            <img class="first" src="assets/images/assorti1.svg" alt="cafe">
+                            <img class="fav" src="assets/images/red-fav.svg" alt="f">
+                        </div>
+
+                        <p class="title">Яичница с сосиской</p>
+
+                        <p class="sub">4890 тг</p>
+
+                        <div class="rate"><img src="assets/images/star.svg" alt="star"> 5.0</div>
+                    </a>
+
+                    <a class="places__item col-6">
+                        <div class="img-holder">
+                            <img class="first" src="assets/images/assorti2.svg" alt="cafe">
+                            <img class="fav" src="assets/images/red-fav.svg" alt="f">
+                        </div>
+
+                        <p class="title">Яичница с сосиской</p>
+
+                        <p class="sub">4890 тг</p>
+
+                        <div class="info">
+                            <div class="rate">
+                                <img src="assets/images/star.svg" alt="star"> 5.0
+                            </div>
+                            <div class="dist">
+                                <img src="assets/images/clock.svg" alt="clock"> 15 m
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="places__item col-6">
+                        <div class="img-holder">
+                            <img class="first" src="assets/images/assorti1.svg" alt="cafe">
+                            <img class="fav" src="assets/images/red-fav.svg" alt="f">
+                        </div>
+
+                        <p class="title">Яичница с сосиской</p>
+
+                        <p class="sub">4890 тг</p>
+
+                        <div class="rate"><img src="assets/images/star.svg" alt="star"> 5.0</div>
+                    </a>
+
+                    <a class="places__item col-6">
+                        <div class="img-holder">
+                            <img class="first" src="assets/images/assorti2.svg" alt="cafe">
+                            <img class="fav" src="assets/images/red-fav.svg" alt="f">
+                        </div>
+
+                        <p class="title">Яичница с сосиской</p>
+
+                        <p class="sub">4890 тг</p>
+
+                        <div class="info">
+                            <div class="rate">
+                                <img src="assets/images/star.svg" alt="star"> 5.0
+                            </div>
+                            <div class="dist">
+                                <img src="assets/images/clock.svg" alt="clock"> 15 m
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="paggination d-flex justify-content-center mb-4">
+                    <img src="assets/images/pagleft.svg" alt="l">
+
+                    <p class="mx-2">1/4</p>
+
+                    <img src="assets/images/pagright.svg" alt="r">
+                </div>
+
+            </div>
+            <div class="navbot d-flex">
+                <div class="navbot__item">
+                    <img src="assets/images/home.svg" alt="hm">
+                    <p>Главная</p>
+                </div>
+                <div class="navbot__item active">
+                    <img src="assets/images/fav.svg" alt="hm">
+                    <p>Избранное</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/qr.svg" alt="hm">
+                    <p>QR код</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/cart.svg" alt="hm">
+                    <p>Корзина</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/account.svg" alt="hm">
+                    <p>Аккаунт</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="plate se d-flex flex-column">
+            <div class="banner">
+                <img class="main" src="assets/images/food.png" alt="fd">
+                <img class="left" src="assets/images/Left.svg" alt="left">
+                <div class="three-dots d-flex">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="base cont flex-grow-1">
+                <div class="title mb-2">Веган Сэт с семгой</div>
+
+                <div class="rate">
+                    <img src="assets/images/star.svg" alt="star"> 5.0
+                </div>
+
+                <p class="desc mb-3">
+                    Картофель, куриное филе, соус BBQ, крем-мусс, шпинат, помидоры черри, сырный соус, сыр пармезан,
+                    микс из семечек.
+                </p>
+
+                <div class="check-group">
+                    <div class="subtitle mb-2">
+                        Добавить
+                    </div>
+
+                    <div class="d-flex mb-2">
+                        <div class="check d-flex align-items-center">
+                            <input class="form-check-input al" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Креветка
+                            </label>
+                            &nbsp;
+                            <span>(+500 тг)</span>
+                        </div>
+                        <div class="check d-flex align-items-center">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Креветка
+                            </label>
+                            &nbsp;
+                            <span>(+500 тг)</span>
+                        </div>
+
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="check d-flex align-items-center">
+                            <input class="form-check-input al" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Креветка
+                            </label>
+                            &nbsp;
+                            <span>(+500 тг)</span>
+                        </div>
+                        <div class="check d-flex align-items-center">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Креветка
+                            </label>
+                            &nbsp;
+                            <span>(+500 тг)</span>
+                        </div>
+
+                    </div>
+
+                    <div class="subtitle mb-2">
+                        Удалить
+                    </div>
+
+                    <div class="d-flex mb-2">
+                        <div class="check d-flex align-items-center">
+                            <input class="form-check-input al" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Креветка
+                            </label>
+                            &nbsp;
+                            <span>(+500 тг)</span>
+                        </div>
+                        <div class="check d-flex align-items-center">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Креветка
+                            </label>
+                            &nbsp;
+                            <span>(+500 тг)</span>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="check d-flex align-items-center">
+                            <input class="form-check-input al" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Креветка
+                            </label>
+                            &nbsp;
+                            <span>(+500 тг)</span>
+                        </div>
+                        <div class="check d-flex align-items-center">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Креветка
+                            </label>
+                            &nbsp;
+                            <span>(+500 тг)</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="pay cont d-flex justify-content-between align-items-center">
+                <div class="title me-2">
+                    2500 тг
+                </div>
+
+                <button class="btn-green">
+                    Добавить в корзину
+                </button>
+            </div>
+        </div>
+
+        <div class="favorites se d-flex flex-column">
+            <div class="head d-flex justify-content-between mb-3">
+                <div class="address position-relative">
+                    <img class="met" src="assets/images/metka.svg" alt="met">
+
+                    <div class="address__text ">
+                        <p>Адрес</p>
+                        <div class="address__desc">Пр. Кабанбая батыра <img src="assets/images/bottom.svg" alt="bt">
+                        </div>
+                    </div>
+                </div>
+
+                <img src="assets/images/bellyring.svg" alt="bell">
+            </div>
+
+            <div class="base cont flex-grow-1">
+                <div class="tab">
+                    <button class="tablinks active">Бронировать столик</button>
+                    <button class="tablinks ">Заказать еду</button>
+                </div>
+
+                <div class="foods mt-4">
+                    <div class="item d-flex mb-4">
+                        <div class="img-holder me-3">
+                            <img class="main" src="assets/images/restar.png" alt="res">
+
+                            <img class="fav" src="assets/images/love.svg" alt="lvoe">
+                        </div>
+
+                        <div class="desc flex-grow-1">
+                            <div class="title">Orient Express</div>
+                            <div class="text">​у. К.Мухамедханова, 11</div>
+                            <div class="rate mb-2"><img src="assets/images/star.svg" alt="star"> 5.0</div>
+
+                            <button class="btn-green">
+                                Бронировать
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="item d-flex mb-4">
+                        <div class="img-holder me-3">
+                            <img class="main" src="assets/images/restar.png" alt="res">
+
+                            <img class="fav" src="assets/images/love.svg" alt="lvoe">
+                        </div>
+
+                        <div class="desc flex-grow-1">
+                            <div class="title">Orient Express</div>
+                            <div class="text">​у. К.Мухамедханова, 11</div>
+                            <div class="rate mb-2"><img src="assets/images/star.svg" alt="star"> 5.0</div>
+
+                            <button class="btn-green">
+                                Бронировать
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="item d-flex mb-4">
+                        <div class="img-holder me-3">
+                            <img class="main" src="assets/images/foods.png" alt="res">
+
+                            <img class="fav" src="assets/images/love.svg" alt="lvoe">
+                        </div>
+
+                        <div class="desc flex-grow-1">
+                            <div class="title">Яичница с сосиской</div>
+                            <div class="text">4890 тг</div>
+                            <div class="rate mb-2"><img src="assets/images/star.svg" alt="star"> 5.0</div>
+
+                            <button class="btn-green">
+                                Бронировать
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbot d-flex">
+                <div class="navbot__item">
+                    <img src="assets/images/home.svg" alt="hm">
+                    <p>Главная</p>
+                </div>
+                <div class="navbot__item active">
+                    <img src="assets/images/fav.svg" alt="hm">
+                    <p>Избранное</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/qr.svg" alt="hm">
+                    <p>QR код</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/cart.svg" alt="hm">
+                    <p>Корзина</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/account.svg" alt="hm">
+                    <p>Аккаунт</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="carts">
+            <div class="base cont">
+                <div class="title mb-4">
+                    Корзина
+                </div>
+
+
+                <div class="filter-group d-flex mb-4">
+                    <div class="item active">Afsona</div>
+                    <div class="item ">Dami</div>
+                    <div class="item ">Friends</div>
+                    <div class="item ">Guests</div>
+                </div>
+
+
+                <div class="choose">
+                    <div class="item d-flex">
+                        <div class="img-holder">
+                            <img src="assets/images/foods.png" alt="">
+                        </div>
+
+                        <div class="desc flex-grow-1">
+                            <div class="name">
+                                Яичница с сосиской
+                            </div>
+                            <div class="price">
+                                4890 тг
+                            </div>
+
+                            <div class="plusminus d-flex align-items-center">
+                                <img src="assets/images/min.svg" class="minus me-2" />
+                                <div class="num me-2">1</div>
+                                <img src="assets/images/plus (2).svg" class="plus" />
+                            </div>
+
+                            <img class="cr" src="assets/images/cross-red.svg" alt="cr">
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="item d-flex">
+                        <div class="img-holder">
+                            <img src="assets/images/foods.png" alt="">
+                        </div>
+
+                        <div class="desc flex-grow-1">
+                            <div class="name">
+                                Яичница с сосиской
+                            </div>
+                            <div class="price">
+                                4890 тг
+                            </div>
+
+                            <div class="plusminus d-flex align-items-center">
+                                <img src="assets/images/min.svg" class="minus me-2" />
+                                <div class="num me-2">1</div>
+                                <img src="assets/images/plus (2).svg" class="plus" />
+                            </div>
+
+                            <img class="cr" src="assets/images/cross-red.svg" alt="cr">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-holder">
+                    <div class="tab error">
+                        <button class="tablinks">Промокод</button>
+                        <button class="tablinks active">Применить</button>
+                    </div>
+
+                    <p class="error-ms"><img src="assets/images/error.svg" alt="">Купон не действителен</p>
+                </div>
+
+
+
+                <div class="sum">
+                    <div class="subtitle">
+                        Сумма заказа
+                    </div>
+
+                    <div class="holder">
+                        <div class="item">
+                            <p class="name">Сумма</p>
+                            <p class="price">
+                                15 000 тг
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <p class="name">Работа сервиса</p>
+                            <p class="price">
+                                150 тг
+                            </p>
+                        </div>
+
+                        <div class="item active">
+                            <p class="name">Итого</p>
+                            <p class="price">
+                                15 000 тг
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn-green mb-2">
+                        Продолжить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="navbot d-flex">
+                <div class="navbot__item">
+                    <img src="assets/images/home.svg" alt="hm">
+                    <p>Главная</p>
+                </div>
+                <div class="navbot__item active">
+                    <img src="assets/images/fav.svg" alt="hm">
+                    <p>Избранное</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/qr.svg" alt="hm">
+                    <p>QR код</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/cart.svg" alt="hm">
+                    <p>Корзина</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/account.svg" alt="hm">
+                    <p>Аккаунт</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="confirm cont">
+            <div class="top d-flex align-items-center mt-4 mb-4">
+                <img src="assets/images/Left.svg" alt="df">
+                <p class="title flex-grow-1 text-center">Оформление покупки</p>
+            </div>
+
+            <div class="tab mb-4">
+                <button class="tablinks active">Доставка</button>
+                <button class="tablinks">Самовывоз</button>
+            </div>
+
+
+            <div class="data mb-3">
+                <div class="show d-flex justify-content-between align-items-center">
+                    <div class="subtitle">
+                        Ваши данные
+                    </div>
+
+                    <a class=""><span>Показать еще</span> <img src="assets/images/smallleft.svg" alt="left"></a>
+                </div>
+
+                <div class="sum.info">
+                    <div class="holder">
+                        <div class="item">
+                            <p class="name">Ф.И.О.</p>
+                            <p class="price">
+                                Ким Алина
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <p class="name">Номер телефонасервиса</p>
+                            <p class="price">
+                                +7 (700) 305 89 89
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <p class="name">Город</p>
+                            <p class="price">
+                                Астана
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <p class="name">Адрес</p>
+                            <p class="price">
+                                Улы дала 34, кв.5
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="payment mb-4">
+                <div class="subtitle mb-3">
+                    Оплата
+                </div>
+
+                <div class="swiper d-flex align-items-center column-gap-3 overflow-x-scroll">
+                    <div class="add">
+                        <img src="assets/images/plus (2).svg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/card.png" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/card.png" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/card.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="sum">
+                <div class="subtitle">
+                    Сумма заказа
+                </div>
+
+
+                <div class="holder">
+                    <div class="item">
+                        <p class="name">Сумма</p>
+                        <p class="price">
+                            15 000 тг
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="name">Работа сервиса</p>
+                        <p class="price">
+                            150 тг
+                        </p>
+                    </div>
+
+                    <div class="item active">
+                        <p class="name">Итого</p>
+                        <p class="price">
+                            15 000 тг
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mb-2">
+                <button class="btn-green">
+                    Продолжить
+                </button>
+            </div>
+
+        </div>
+
+        <div class="navbot d-flex">
+            <div class="navbot__item">
+                <img src="assets/images/home.svg" alt="hm">
+                <p>Главная</p>
+            </div>
+            <div class="navbot__item active">
+                <img src="assets/images/fav.svg" alt="hm">
+                <p>Избранное</p>
+            </div>
+            <div class="navbot__item">
+                <img src="assets/images/qr.svg" alt="hm">
+                <p>QR код</p>
+            </div>
+            <div class="navbot__item">
+                <img src="assets/images/cart.svg" alt="hm">
+                <p>Корзина</p>
+            </div>
+            <div class="navbot__item">
+                <img src="assets/images/account.svg" alt="hm">
+                <p>Аккаунт</p>
+            </div>
+        </div>
+
+        <div class="addcard cont d-flex flex-column se">
+            <div class="top d-flex align-items-center mt-4 mb-5">
+                <img src="assets/images/Left.svg" alt="df">
+                <p class="title flex-grow-1 text-center">Добавить карту</p>
+
+            </div>
+
+            <div class="base flex-grow-1">
+                <div class="card-owner mb-4">
+                    <div class="subtitle mb-2">
+                        Владелец карты
+                    </div>
+
+                    <input class="inp-c error" type="text" placeholder="Напишите ваше имя">
+                    <label class="error-card">Напишите латинскими буквами</label>
+                </div>
+
+                <div class="card-num mb-4">
+                    <div class="subtitle mb-2">
+                        Номер карты
+                    </div>
+
+                    <input class="inp-c" type="text" placeholder="0000 0000 0000 0000">
+                    <label class="error-card">Некорректный ввод</label>
+                </div>
+
+
+                <div class="card-details d-flex mb-4 column-gap-2">
+                    <div class="date">
+                        <div class="subtitle mb-2">
+                            Срок действия
+                        </div>
+
+                        <input class="inp-c" type="text" placeholder="MM/YY">
+                        <label class="error-card">Некорректный ввод</label>
+                    </div>
+
+                    <div class="cvv">
+                        <div class="subtitle mb-2">
+                            CVV
+                        </div>
+
+                        <input class="inp-c" type="text" placeholder="MM/YY">
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mb-2">
+                <button class="btn-gray">
+                    Сохранить
+                </button>
+            </div>
+
+        </div>
+
+        <div class="confirm cont">
+            <div class="top d-flex align-items-center mt-4 mb-4">
+                <img src="assets/images/Left.svg" alt="df">
+                <p class="title flex-grow-1 text-center">Оформление покупки</p>
+            </div>
+
+            <div class="tab mb-4">
+                <button class="tablinks ">Доставка</button>
+                <button class="tablinks active">Самовывоз</button>
+            </div>
+
+
+            <div class="data mb-3">
+                <div class="show d-flex justify-content-between align-items-center">
+                    <div class="subtitle">
+                        Филиалы
+                    </div>
+
+                    <a class=""><span>На карте</span> <img src="assets/images/smallleft.svg" alt="left"></a>
+                </div>
+
+                <div class="radios">
+
+                    <div class="form-check ">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            ул. Кошкарбаева 8, ЖК «Хайвил»
+                        </label>
+                        <p><img src="assets/images/clock-transp.svg" alt="">Круглосуточно</p>
+                    </div>
+
+                    <div class="form-check active">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            пр. Кабанбай батыра, 58Б
+                        </label>
+                        <p><img src="assets/images/clock-transp.svg" alt="">9:00-22:00</p>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                            checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            пр. Кабанбай батыра, 58Б
+                        </label>
+                        <p><img src="assets/images/clock-transp.svg" alt="">9:00-22:00</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="payment mb-4">
+                <div class="subtitle mb-3">
+                    Оплата
+                </div>
+
+                <div class="swiper d-flex align-items-center column-gap-3 overflow-x-scroll">
+                    <div class="add">
+                        <img src="assets/images/plus (2).svg" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/card.png" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/card.png" alt="">
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/images/card.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="sum">
+                <div class="subtitle">
+                    Сумма заказа
+                </div>
+
+
+                <div class="holder">
+                    <div class="item">
+                        <p class="name">Сумма</p>
+                        <p class="price">
+                            15 000 тг
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="name">Работа сервиса</p>
+                        <p class="price">
+                            150 тг
+                        </p>
+                    </div>
+
+                    <div class="item active">
+                        <p class="name">Итого</p>
+                        <p class="price">
+                            15 000 тг
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mb-2">
+                <button class="btn-green">
+                    Продолжить
+                </button>
+            </div>
+
+        </div>
+
+
+        <div class="success se d-flex flex-column">
+            <div class="base flex-grow-1 d-flex flex-column align-items-center justify-content-center text-center">
+                <img class="mb-3" src="assets/images/checked.svg" alt="yes">
+
+
+                <p class="ms mb-3">
+                    Покупка успешно совершена!
+                </p>
+
+                <p class="text">
+                    Статус бронирования вы можете <br> отслеживать в личном кабинете.
+                </p>
+            </div>
+
+            <div class="text-center">
+                <button class="btn-green mb-1">
+                    Проверить статус заказа
+                </button>
+
+                <button class="btn-gray">
+                    Продолжить покупки
+                </button>
+            </div>
+        </div>
+
+        <div class="account se d-flex flex-column">
+            <div class="title mb-5">
+                Аккаунт
+            </div>
+
+
+            <div class="base">
+                <div class="ava mb-4 d-flex column-gap-3 align-items-center">
+                    <div class="img-holder">
+                        <img src="assets/images/ava.png" alt="">
+                    </div>
+
+                    <div class="desc">
+                        <p class="">Алина Ким</p>
+                        <span>Личная информация</span>
+                    </div>
+
+                    <img class="left" src="assets/images/left-trans.svg" alt="">
+                </div>
+
+
+                <div class="info">
+                    <div class="item">
+                        <p>Мои заказы</p>
+                        <img src="assets/images/left-trans.svg" alt="left">
+                    </div>
+                    <div class="item">
+                        <p>Мои бронирования</p>
+                        <img src="assets/images/left-trans.svg" alt="left">
+                    </div>
+                    <div class="item">
+                        <p>Мои купоны</p>
+                        <img src="assets/images/left-trans.svg" alt="left">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="text-center">
+                <button class="btn-red">
+                    Выйти
+                </button>
+            </div>
+        </div>
+
+
+        <div class="orders-active">
+
+            <div class="top d-flex align-items-center mt-4 mb-4">
+                <img src="assets/images/Left.svg" alt="df">
+                <p class="title flex-grow-1 text-center">Оформление покупки</p>
+            </div>
+
+            <div class="base cont">
+                <div class="tabs ">
+                    <div class="tabs__group d-flex align-items-center mb-4">
+                        <div class="item active">
+                            Активные
+                        </div>
+                        <div class="item ">
+                            Завершённые
+                        </div>
+                        <div class="item active">
+                            Отменённые
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="order-base">
+                    <div class="item">
+                        <div class="sum">
+                            <div class="subtitle">
+                                Заказ № 1235
+                            </div>
+
+                            <div class="holder mb-3">
+                                <div class="item">
+                                    <p class="name">Время доставки:</p>
+                                    <p class="price">
+                                        10 октября <br> 11:30-12:30
+                                    </p>
+                                </div>
+
+                                <div class="item">
+                                    <p class="name">Статус заказа:</p>
+                                    <p class="price">
+                                        Доставляется
+                                    </p>
+                                </div>
+
+                                <div class="item">
+                                    <p class="name">Цена заказа:</p>
+                                    <p class="price">
+                                        15 150 тг.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="btns d-flex column-gap-4">
+                                <button class="btn-green flex-grow-1">Детали</button>
+                                <button class="btn-green flex-grow-1 light">Отмена</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="sum">
+                            <div class="subtitle">
+                                Заказ № 1235
+                            </div>
+
+                            <div class="holder mb-3">
+                                <div class="item">
+                                    <p class="name">Время доставки:</p>
+                                    <p class="price">
+                                        10 октября <br> 11:30-12:30
+                                    </p>
+                                </div>
+
+                                <div class="item">
+                                    <p class="name">Статус заказа:</p>
+                                    <p class="price">
+                                        Доставляется
+                                    </p>
+                                </div>
+
+                                <div class="item">
+                                    <p class="name">Цена заказа:</p>
+                                    <p class="price">
+                                        15 150 тг.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="btns d-flex column-gap-4">
+                                <button class="btn-green flex-grow-1">Детали</button>
+                                <button class="btn-green flex-grow-1 light">Отмена</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="navbot d-flex">
+                <div class="navbot__item">
+                    <img src="assets/images/home.svg" alt="hm">
+                    <p>Главная</p>
+                </div>
+                <div class="navbot__item active">
+                    <img src="assets/images/fav.svg" alt="hm">
+                    <p>Избранное</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/qr.svg" alt="hm">
+                    <p>QR код</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/cart.svg" alt="hm">
+                    <p>Корзина</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/account.svg" alt="hm">
+                    <p>Аккаунт</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="details-order my-3 d-flex flex-column">
+            <div class="top cont d-flex align-items-center mt-4 mb-4">
+                <img src="assets/images/Left.svg" alt="df">
+                <p class="title flex-grow-1 text-center">Детали</p>
+            </div>
+
+            <div class="base flex-grow-1 cont">
+
+                <div class="subtitle mb-4">
+                    Заказ № 1235
+                </div>
+
+                <div class="order-info choose mb-5">
+                    <div class="item d-flex">
+                        <div class="img-holder">
+                            <img src="assets/images/foods.png" alt="">
+                        </div>
+
+                        <div class="desc flex-grow-1">
+                            <div class="name">
+                                Яичница с сосиской
+                            </div>
+                            <div class="price">
+                                4890 тг
+                            </div>
+
+                            <div class="amount">1 шт</div>
+                        </div>
+                    </div>
+
+                    <div class="item d-flex">
+                        <div class="img-holder">
+                            <img src="assets/images/foods.png" alt="">
+                        </div>
+
+                        <div class="desc flex-grow-1">
+                            <div class="name">
+                                Яичница с сосиской
+                            </div>
+                            <div class="price">
+                                4890 тг
+                            </div>
+
+                            <div class="amount">1 шт</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sum">
+                    <div class="subtitle">
+                        Сумма заказа
+                    </div>
+
+                    <div class="holder">
+                        <div class="item">
+                            <p class="name">Сумма</p>
+                            <p class="price">
+                                15 000 тг
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <p class="name">Работа сервиса</p>
+                            <p class="price">
+                                150 тг
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <p class="name">Доставка</p>
+                            <p class="price">
+                                2000 тг
+                            </p>
+                        </div>
+
+                        <div class="item active">
+                            <p class="name">Итого</p>
+                            <p class="price">
+                                15 000 тг
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn-green y">Отменить</button>
+                </div>
+            </div>
+
+            <div class="navbot d-flex">
+                <div class="navbot__item">
+                    <img src="assets/images/home.svg" alt="hm">
+                    <p>Главная</p>
+                </div>
+                <div class="navbot__item active">
+                    <img src="assets/images/fav.svg" alt="hm">
+                    <p>Избранное</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/qr.svg" alt="hm">
+                    <p>QR код</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/cart.svg" alt="hm">
+                    <p>Корзина</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/account.svg" alt="hm">
+                    <p>Аккаунт</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="order-status se d-flex flex-column">
+            <div class="top cont d-flex align-items-center mt-4 mb-4">
+                <img src="assets/images/Left.svg" alt="df">
+                <p class="title flex-grow-1 text-center">Мои заказы</p>
+            </div>
+
+            <div class="tabs cont">
+                <div class="tabs__group d-flex align-items-center mb-4">
+                    <div class="item active">
+                        Активные
+                    </div>
+                    <div class="item ">
+                        Завершённые
+                    </div>
+                    <div class="item active">
+                        Отменённые
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="order-base flex-grow-1 cont">
+                <div class="item">
+                    <div class="sum">
+                        <div class="subtitle">
+                            Заказ № 1235
+                        </div>
+
+                        <div class="holder mb-3">
+                            <div class="item">
+                                <p class="name">Время доставки:</p>
+                                <p class="price">
+                                    10 октября <br> 11:30-12:30
+                                </p>
+                            </div>
+
+                            <div class="item">
+                                <p class="name">Статус заказа:</p>
+                                <p class="price">
+                                    Доставляется
+                                </p>
+                            </div>
+
+                            <div class="item">
+                                <p class="name">Цена заказа:</p>
+                                <p class="price">
+                                    15 150 тг.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="sum">
+                        <div class="subtitle">
+                            Заказ № 1235
+                        </div>
+
+                        <div class="holder mb-3">
+                            <div class="item">
+                                <p class="name">Время доставки:</p>
+                                <p class="price">
+                                    10 октября <br> 11:30-12:30
+                                </p>
+                            </div>
+
+                            <div class="item">
+                                <p class="name">Статус заказа:</p>
+                                <p class="price">
+                                    Доставляется
+                                </p>
+                            </div>
+
+                            <div class="item">
+                                <p class="name">Цена заказа:</p>
+                                <p class="price">
+                                    15 150 тг.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbot d-flex">
+                <div class="navbot__item">
+                    <img src="assets/images/home.svg" alt="hm">
+                    <p>Главная</p>
+                </div>
+                <div class="navbot__item active">
+                    <img src="assets/images/fav.svg" alt="hm">
+                    <p>Избранное</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/qr.svg" alt="hm">
+                    <p>QR код</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/cart.svg" alt="hm">
+                    <p>Корзина</p>
+                </div>
+                <div class="navbot__item">
+                    <img src="assets/images/account.svg" alt="hm">
+                    <p>Аккаунт</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="personal">
+        <div class="top cont d-flex align-items-center mt-4 mb-5">
+            <img src="assets/images/Left.svg" alt="df">
+            <p class="title flex-grow-1 text-center">Личная информация</p>
+            <img src="assets/images/pencily.svg" alt="df">
+
+        </div>
+
+        <div class="base cont">
+            <div class="subtitle mb-2">
+                Ф.И.О.
+            </div>
+
+            <input class="inp-c mb-4" type="text" placeholder="Напишите ваше имя" value="Алина Ким">
+
+            <div class="subtitle mb-2">
+                Е-майл
+            </div>
+
+            <input class="inp-c mb-4" type="text" placeholder="Напишите ваше имя" value="alinakim@mail.ru">
+
+            <div class="subtitle mb-3">
+                Социальные сети
+            </div>
+
+            <div class="socials mb-5">
+                <div class="item d-flex align-items-center column-gap-3">
+                    <div class="img-holder">
+                        <img src="assets/images/twitter.svg" alt="tw">
+                    </div>
+
+                    <input class="inp-c" type="text" placeholder="Вставьте ссылку" value="">
+                    <!-- <img class="arr" src="assets/images/arrow-bt-soc.svg" alt=""> -->
+                </div>
+
+                <div class="item d-flex align-items-center column-gap-3">
+                    <div class="img-holder">
+                        <img src="assets/images/facebook.svg" alt="tw">
+                    </div>
+
+                    <input class="inp-c" type="text" placeholder="Вставьте ссылку" value="https://www.facebook.com/">
+                    <img class="arr" src="assets/images/arrow-bt-soc.svg" alt="">
+                </div>
+
+                <div class="item d-flex align-items-center column-gap-3">
+                    <div class="img-holder">
+                        <img src="assets/images/google.svg" alt="tw">
+                    </div>
+
+                    <input class="inp-c" type="text" placeholder="Вставьте ссылку" value="https://mail.google.com/mail">
+
+                    <img class="arr" src="assets/images/arrow-bt-soc.svg" alt="">
+                </div>
+            </div>
+
+            <div class="text-center mb-3">
+                <button class="btn-gray">Сохранить изменения</button>
+            </div>
+
+        </div>
+
+        <div class="navbot d-flex">
+            <div class="navbot__item">
+                <img src="assets/images/home.svg" alt="hm">
+                <p>Главная</p>
+            </div>
+            <div class="navbot__item active">
+                <img src="assets/images/fav.svg" alt="hm">
+                <p>Избранное</p>
+            </div>
+            <div class="navbot__item">
+                <img src="assets/images/qr.svg" alt="hm">
+                <p>QR код</p>
+            </div>
+            <div class="navbot__item">
+                <img src="assets/images/cart.svg" alt="hm">
+                <p>Корзина</p>
+            </div>
+            <div class="navbot__item">
+                <img src="assets/images/account.svg" alt="hm">
+                <p>Аккаунт</p>
             </div>
         </div>
     </div>
