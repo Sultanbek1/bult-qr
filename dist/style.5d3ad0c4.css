@@ -2977,4 +2977,44 @@ body {
   background: #cdfbbf;
 }
 
+.info-place {
+  padding-block: 10px;
+}
+.info-place .pen {
+  margin-right: 10px;
+  background: #f0c808;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.info-place .pen img {
+  position: relative;
+  top: 5.1px;
+  left: 9.4px;
+}
+.info-place .subtitle {
+  font-weight: 500;
+}
+.info-place .address-inp.show {
+  border: 1px solid #010c10;
+  border-radius: 15px;
+}
+.info-place .address-inp.show .inp-c {
+  border: none;
+}
+.info-place .address-inp.show .inp-c:focus {
+  outline: none;
+  border: none;
+}
+.info-place .result ul li {
+  padding: 10px 20px;
+}
+.info-place .result ul li:hover, .info-place .result ul li:focus {
+  background: #086788;
+  color: #fff;
+}
+.info-place .result ul li:last-child {
+  border-radius: 0 0 15px 14px;
+}
+
 /*# sourceMappingURL=/style.5d3ad0c4.css.map */

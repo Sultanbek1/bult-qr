@@ -3523,3 +3523,52 @@ body {
     }
   }
 }
+
+.info-place {
+  padding-block: 10px;
+  .pen {
+    margin-right: 10px;
+    background: #f0c808;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    img {
+      position: relative;
+      top: 5.1px;
+      left: 9.4px;
+    }
+  }
+
+  .subtitle {
+    font-weight: 500;
+  }
+
+  .address-inp {
+    &.show {
+      border: 1px solid #010c10;
+      border-radius: 15px;
+
+      .inp-c {
+        border: none;
+      }
+
+      .inp-c:focus {
+        outline: none;
+        border: none;
+      }
+    }
+  }
+
+  .result ul li {
+    padding: 10px 20px;
+
+    &:hover,
+    &:focus {
+      background: #086788;
+      color: #fff;
+    }
+    &:last-child {
+      border-radius: 0 0 15px 14px;
+    }
+  }
+}
